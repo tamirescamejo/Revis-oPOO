@@ -2,8 +2,12 @@ package exercicio5
 
 fun main() {
 
-    val dicionario: Dicionario = Dicionario()
+    println("------- LISTA DE OBJETOS -------")
 
+    val imprimirLista = Dicionario().inserirDadosLista()
+    imprimirLista.forEach { i ->
+        println(i)
+    }
 }
 
 
